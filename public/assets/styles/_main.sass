@@ -1,0 +1,226 @@
+/* GENERAL SETTINGS
+ *---------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+$primary-font: 'Raleway', sans-serif
+@import 'colors'
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  background: #f3f3f3
+  font-family: $primary-font
+  font-size: 14px
+  font-weight: 300
+  color: $secondary-color
+  line-height: 1.5
+  text-rendering: optimizeLegibility
+  position: relative
+  overflow: hidden
+  height: 100vh
+
+img
+  display: block
+  width: 100%
+  height: auto
+
+.p
+  margin: 0 0 25px 0
+
+a
+  color: $primary-color
+  // text-decoration: none
+
+.link-effect
+  position: relative
+  text-decoration: none
+  overflow: hidden
+  padding: 0 3px
+
+.link-effect
+  &:after
+    content: ''
+    position: absolute
+    top: 50%
+    margin: -1px 0 0 0
+    left: 0
+    width: 0%
+    height: 1px
+    background: $primary-color
+    -webkit-transition: all .3s
+    -moz-transition: all .3s
+    -o-transition: all .3s
+    -ms-transition: all .3s
+    transition: all .3s
+  &:hover:after, &:active:after
+    width: 100%
+
+/* Title
+
+.title
+  font-family: $primary-font
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 1px
+  color: $primary-color
+
+.h2
+  font-size: 18px
+  margin: 0 0 50px 0
+  color: $primary-color
+
+.h3
+  font-family: $primary-font
+  font-weight: 700
+  text-transform: uppercase
+  font-size: 10px
+  letter-spacing: 2px
+
+/* Vertical center
+
+.parent
+  display: table
+  width: 100%
+  height: 100vh
+
+.child
+  display: table-cell
+  vertical-align: middle
+  width: 100%
+
+/* Float
+
+.left
+  float: left
+
+.right
+  float: right
+
+.clear
+  clear: both
+
+/* Containers
+
+.container
+  margin: 0 auto
+  width: 100%
+  max-width: 1000px
+
+.container-small
+  margin: 0 auto
+  padding: 0 15px
+  width: 100%
+  max-width: 800px
+
+.container-project
+  margin: 0 auto
+  width: 100%
+  max-width: 1000px
+  overflow-y: auto
+
+.flex
+  display: flex
+  display: -webkit-flex
+  flex-flow: row wrap
+  justify-content: space-between
+  align-content: space-between
+  -webkit-flex-flow: row wrap
+  -webkit-justify-content: space-between
+  -webkit-align-content: space-between
+
+#full
+  height: 750px
+  position: relative
+
+.hide
+  opacity: 0
+  -moz-transition: all 300ms linear
+  -o-transition: all 300ms linear
+  -ms-transition: all 300ms linear
+  transition: all 300ms linear
+
+.dark-bg
+  background: #151515
+  width: 50vw
+  height: 100vh
+  position: fixed
+  right: 0
+  top: 0
+  z-index: -1
+
+/* INFO
+ *---------------------------------------------------------------
+
+#header
+  position: absolute
+  top: 75px
+  left: 75px
+
+.logo
+  width: 40px
+  height: 40px
+
+#info
+  background: #fff
+  padding: 200px 75px 75px 75px
+  height: 100%
+  line-height: 20px
+
+#tab-1, #tab-2
+  line-height: 35px
+
+#tab-2 > h2
+  margin: 0 0 30px 0
+
+.tabs
+  position: absolute
+  top: 118px
+  left: 70px
+
+.tab-link
+  font-family: $primary-font
+  display: inline-block
+  padding: 5px
+  cursor: pointer
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: 10px
+
+.center-tab
+  margin: 0 5px
+
+.tab-content
+  display: none
+  &.current
+    display: inherit
+
+#contact
+  padding: 50px 0 0 0
+
+.email
+  font-family: $primary-font
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: 10px
+  color: $primary-color
+  a
+    padding: 5px
+
+.email-title
+  margin: 0 10px 0 0
+
+#info, #portfolio
+  width: 50%
+
+#footer
+  position: absolute
+  left: 10px
+  bottom: 0
+  font-size: 12px
+  display: flex
+
+.footer-logo
+  width: 20px
+  height: 16px
