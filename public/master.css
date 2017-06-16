@@ -449,7 +449,7 @@ div.webpack:hover {
   margin: 0 auto; }
 
 .close-full-screen {
-  cursor: url("/public/assets/images/icons/close-cursor.svg"), url("/public/assets/images/icons/close-cursor.png"), pointer; }
+  cursor: url("/assets/images/icons/close-cursor.svg"), url("/assets/images/icons/close-cursor.png"), pointer; }
 
 .hide-scrollbar-parent {
   position: relative;
