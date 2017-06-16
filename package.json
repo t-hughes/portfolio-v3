@@ -1,17 +1,17 @@
 {
   "name": "talon-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "portfolio to brag on the interwebs",
   "main": "index.js",
+  "repository": "https://github.com/t-hughes/portfolio-v3",
+    "author": "Talon Hughes",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
     "jquery": "^3.2.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-  },
-  "author": "Talon Hughes",
-  "license": "MIT"
+  }
 }
